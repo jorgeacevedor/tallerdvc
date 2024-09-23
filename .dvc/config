@@ -1,8 +1,6 @@
 [core]
-    remote = aws-remote2
+    remote = aws-remote
 ['remote "fuentelocal"']
     url = /tmp/dvcstore
 ['remote "aws-remote"']
-    url = ../s3::/jorge-dvcstore
-['remote "aws-remote2"']
-    url = ../s3::/jorge-dvcstore2
+    url = s3://jorge-dvcstore
